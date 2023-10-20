@@ -53,7 +53,7 @@ const NavBar = () => {
 
 
 
-          <Popover.Panel className={`bg-gray-800 absolute h-2/6 w-2/6  m-5 rounded-md font-serif ${isMenuOpen ? "block" : "hidden"}`}>
+          <Popover.Panel className={`bg-gray-900 absolute h-2/6 w-2/6  m-5 rounded-md font-serif ${isMenuOpen ? "block" : "hidden"}`}>
 
 
           <div className="text-white justify-content flex-end  p-3">  

@@ -11,10 +11,10 @@ const page = async ({params}) => {
     const data = await obtnerDatoDummy(id)
 
     return (
-    <div>
+    <div className='bg-black text-white'>
         {data.title}
         
-    
+   
     </div>
 
   )

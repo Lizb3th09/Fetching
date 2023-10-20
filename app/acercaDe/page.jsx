@@ -12,7 +12,7 @@ export const Page3 = () => {
       <h1 className=" text-center font-bold text-3xl mt-7 font-serif p-5 "> Departamento de ventas</h1>
 
        
-        <div className="space-y-2 p-4  mt-4 flex flex-col  font-serif border-2 border-black">
+        <div className="space-y-2 p-4  mt-4 flex flex-col  font-serif border-2 border-black rounded-md">
 
           <div className=''>
             <label className='font-bold'>Nombre: </label>

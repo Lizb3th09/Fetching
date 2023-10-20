@@ -10,7 +10,7 @@ const TarjetaProductoDummy = ({ item }) => {
     <div className=''>
       <div className='border-md flex  flex-col  mt-6 rounded-md bg-white items-center mx-auto max-w-md   font-serif '>
         <h2 className=' text-2xl p-5'>{item.title}</h2>
-        <img src={item.thumbnail} alt={item.title} className='w-40 ' />
+        <img src={item.thumbnail} alt={item.title} className='w-80 ' />
         <button
           className='p-4'
           onClick={() => {

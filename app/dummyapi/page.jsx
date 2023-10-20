@@ -12,7 +12,7 @@ const DummyPageApi = async () => {
         return (
         <div>
 
-            <div className='p-5 mx-auto text-center max-w-3xl  bg-zinc-900'>
+            <div className='p-5 mx-auto text-center max-w-3xl  bg-zinc-900 rounded-md'>
                 {products.map((item) => (
                     <TarjetaProductoDummy item={item} />
 
